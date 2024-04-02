@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="169.676" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Tenant" name="To Rent a home option" time="36.099">
+<system-out><![CDATA[
+Given user is logged into the website.......................................passed
+When the user selects All india option a dropdown is visable................passed
+Then the user selects view top cities.......................................passed
+Then the user selects Hyderabad has option..................................passed
+Then selects For tenats as option...........................................passed
+Then the user selects rent a home option....................................passed
+Then selects independent house as option....................................passed
+Then selects a filter.......................................................passed
+Then selects the desired property...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tenant" name="Pg/Co living option" time="36.671">
+<system-out><![CDATA[
+Given user is logged into the website.......................................passed
+When the user selects For tenats as option..................................passed
+Then the user selects pg/co living option...................................passed
+Then the user selects pg in hyderabad as option.............................passed
+Then the user selects multiple filter.......................................passed
+Then the user selects the desired pg........................................passed
+Then the user shotlists the property and contacts the owner.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tenant" name="Commercial option" time="30.806">
+<system-out><![CDATA[
+Given user is logged into the website.......................................passed
+When the user selects For tenats as option..................................passed
+Then the user selects commercial option.....................................passed
+Then the user selects commercial property for rent in hyderabad as option...passed
+Then the user selects few filters...........................................passed
+Then the user will shotlist the property and contacts the owner.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Tenant" name="Rent a home" time="32.411">
+<system-out><![CDATA[
+Given user is logged into the website.......................................passed
+When the user selects For tenats as option..................................passed
+Then the user selects rent a home as option.................................passed
+Then the user selects for rent in Mumbai as option..........................passed
+Then the user selects filters...............................................passed
+Then the user shotlists the property and contacts owner.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tenant" name="Insights" time="33.432">
+<system-out><![CDATA[
+Given user is logged into the website.......................................passed
+When the user selects For tenats as option..................................passed
+When the user selects the Insights as option................................passed
+Then the user will select ratings and review as option......................passed
+Then the user will select hyderabad reviews and scroll......................passed
+]]></system-out>
+</testcase>
+</testsuite>
